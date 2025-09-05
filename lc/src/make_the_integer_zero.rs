@@ -1,3 +1,5 @@
+// 2749. 得到整数零需要执行的最少操作数
+
 pub fn make_the_integer_zero(num1: i32, num2: i32) -> i32 {
     let mut k: i64 = 0;
     loop {
