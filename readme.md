@@ -1,1 +1,1 @@
-rust 算法练习
+# rust-algorithm
