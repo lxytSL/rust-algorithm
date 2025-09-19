@@ -4,9 +4,12 @@ mod find_closest;
 mod get_no_zero_integers;
 mod make_the_integer_zero;
 mod minimum_teachings;
+mod number_containers;
 mod people_aware_of_secret;
-mod sort_vowels;
 mod replace_non_coprimes;
+mod sort_vowels;
+mod spread_sheet;
+mod task_manager;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
