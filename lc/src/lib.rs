@@ -3,6 +3,7 @@ mod does_alice_win;
 mod find_closest;
 mod get_no_zero_integers;
 mod make_the_integer_zero;
+mod max_frequency_elements;
 mod minimum_teachings;
 mod number_containers;
 mod people_aware_of_secret;
