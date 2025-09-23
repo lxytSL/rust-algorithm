@@ -11,6 +11,7 @@ mod replace_non_coprimes;
 mod sort_vowels;
 mod spread_sheet;
 mod task_manager;
+mod compare_version;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
