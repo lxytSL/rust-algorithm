@@ -1,0 +1,15 @@
+// 120. 三角形最小路径和
+pub fn minimum_total(mut triangle: Vec<Vec<i32>>) -> i32 {
+    let n = triangle.len();
+    let mut f = vec![vec![0; n]; n];
+    f[0][0] = triangle[0][0];
+    for i in 1..n {
+        // 第一位直接加
+        f[i][0] = f[i - 1][0] + triangle[i][0];
+        for j in 1..i {
+            f[i][j] = std::cmp::min(f[i - 1][j], f[i - 1][j - 1]) + triangle[i][j];
+        }
+        f[i][i] = f[i - 1][i - 1] + triangle[i][i];
+    }
+    *f[n - 1].iter().min().unwrap()
+}
