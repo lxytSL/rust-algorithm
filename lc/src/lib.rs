@@ -1,8 +1,11 @@
 mod can_be_typed_words;
 mod compare_version;
 mod does_alice_win;
+mod final_value_after_operations;
 mod find_closest;
+mod find_smallest_integer;
 mod get_no_zero_integers;
+mod has_increasing_subarrays;
 mod largest_perimeter;
 mod make_the_integer_zero;
 mod max_frequency_elements;
@@ -21,5 +24,3 @@ mod spread_sheet;
 mod task_manager;
 mod triangle_number;
 mod triangular_sum;
-mod has_increasing_subarrays;
-mod find_smallest_integer;
