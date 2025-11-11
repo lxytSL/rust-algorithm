@@ -1,6 +1,5 @@
 use std::cmp::Reverse;
 use std::collections::{BinaryHeap, HashMap};
-use std::thread::ScopedJoinHandle;
 
 struct NumberContainers {
     // 数字对应的最小堆
